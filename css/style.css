@@ -187,3 +187,158 @@ nav ul{
 }
 
 }
+/* ==========================================
+   HERO BUTTONS
+========================================== */
+
+.hero-buttons{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    padding:14px 30px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:#1e3a8a;
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:#163172;
+
+    transform:translateY(-3px);
+
+}
+
+.btn-secondary{
+
+    background:#10b981;
+
+    color:white;
+
+}
+
+.btn-secondary:hover{
+
+    background:#0e9f6e;
+
+    transform:translateY(-3px);
+
+}
+
+/* ==========================================
+   FEATURE CARDS
+========================================== */
+
+.cards{
+
+    margin-top:50px;
+
+    margin-bottom:50px;
+
+}
+
+.card{
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    transition:.3s;
+
+}
+
+/* ==========================================
+   HERO IMPROVEMENT
+========================================== */
+
+.hero h3{
+
+    color:#10b981;
+
+    font-size:26px;
+
+    margin:15px 0;
+
+    font-weight:600;
+
+}
+
+.hero{
+
+    padding:80px 20px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    width:260px;
+
+    text-align:center;
+
+}
+
+.hero h3{
+
+    font-size:22px;
+
+}
+
+}
