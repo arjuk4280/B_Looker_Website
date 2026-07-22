@@ -1,8 +1,8 @@
-# B_Looker
+# Barrel Tracker
 
 ## Barrel Production Monitoring System
 
-B_Looker is a smart production monitoring system developed for barrel manufacturing.
+Barrel Tracker is a smart production monitoring system developed for barrel manufacturing.
 
 ### Features
 
@@ -41,4 +41,4 @@ Version 1.0.0
 
 Developed by Arju Kumar
 
-© 2026 B_Looker. All Rights Reserved.
+© 2026 Barrel Tracker. All Rights Reserved.
