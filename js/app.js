@@ -1,10 +1,10 @@
 /* ==========================================
-   B_Looker Website
+   Barrel Tracker Website
 ========================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    console.log("B_Looker Website Loaded");
+    console.log("Barrel Tracker Website Loaded");
 
     /* Smooth animation for cards */
 
